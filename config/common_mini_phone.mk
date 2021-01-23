@@ -1,8 +1,8 @@
-# Inherit mini common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini.mk)
+# Inherit mini common Kyuofox stuff
+$(call inherit-product, vendor/kyuofox/config/common_mini.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME
 
-$(call inherit-product, vendor/lineage/config/telephony.mk)
+$(call inherit-product, vendor/kyuofox/config/telephony.mk)
